@@ -1,0 +1,319 @@
+.number {
+    text-align: right;
+}
+
+#garantiaContainer {
+    background-color: #FFFFFF !important;
+    width: 100% !important;
+}
+
+.left {
+  text-align: left;
+}
+
+.numeric {
+    text-align: right !important;
+    padding-right: 10px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+.dt-panel, .form-panel ,.producto-panel{
+	display: none;
+}
+
+.fa-shopping-cart {
+	color: #F2FF8F !important;
+}
+
+.fa-bar-chart {
+	color: #EEECF9 !important;
+}
+
+.fa-dollar {
+	color: #82F69B !important;
+}
+
+.panel-title {
+	color: #FFF !important;
+}
+
+#profile {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.fa-sign-out {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.fa-paint-brush:before {
+    content: "";
+}
+
+.align_left {
+  text-align: left !important;
+}
+
+.highcharts-drilldown-axis-label {
+	fill:#6e6e70 !important;
+	font-weight: lighter !important;
+}
+
+.highcharts-drilldown-data-label text {
+	color:#606060 !important;
+	fill:#606060 !important;
+	text-decoration: none !important;
+	font-weight: lighter !important;
+}
+
+.header-content {
+    padding: 8px 20px !important;
+}
+
+.header-content td {
+    padding: 0.0em !important;
+}
+
+.abonosDetalle {
+	height: 150px;
+}
+
+.pagination {
+    margin:0px;
+    padding-top: 5px
+}
+
+.divFormPayments {
+	padding-bottom: 0px !important;
+}
+
+.divFormPayments .form-footer {
+    padding: 10px;
+    background-color: white !important;
+    border-top: 0px solid transparent !important;
+    margin-top: 10px;
+}
+
+.rdio label {
+	margin-right: 10px;
+}
+
+#loader {
+	display: none;
+	width: 100% !important;
+	position: absolute;
+	z-index: 9999999;
+}
+
+div .spinner.flat {
+	width: 60px;
+	height: 60px;
+}
+
+div.spinner.flat {
+  background-image: url('../img/loader/flat/1.gif') !important;
+  background-repeat: no-repeat;
+  background-position: right 0px bottom 24px;
+  margin-left: 38%;
+  background-size: 30px Auto;
+}
+
+#customer_search {
+    background: transparent none repeat scroll 0px 0px;
+    border: 1px solid #553C3C !important;
+    color: #965B5B !important;
+    padding: 10px;
+    width: 98%;
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+
+#customer_search:focus {
+    border: 1px solid #5F5252 !important;
+}
+
+#home i {
+	font-size: 12px;
+	margin-left: 10px;
+	border: 0;
+}
+
+.input_numeric {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.fa {
+	cursor: pointer;
+}
+
+.editing  .view {
+	display: none;
+}
+
+.editing .detail-input-edit {
+	display: block;
+}
+
+.detail-input-edit {
+	display: none;
+}
+
+.detail-input-edit input {
+	width: 90px !important;
+	line-height: 1.4em;
+}
+
+#barcode {
+	position: relative;
+	z-index: -1;
+}
+
+#editProd {
+	width:98%;
+	margin-bottom:0px;
+	height:20px;
+	font-size:12px;
+}
+
+.highcharts-yaxis-labels {
+
+}
+
+.nav-pills{
+	width: 100% !important;
+}
+
+.nav-pills li{
+	width: 25% !important;
+}
+
+.panel_heading {
+    background: transparent linear-gradient(to bottom, #F8F8F8 15%, #F2F2F2 70%) repeat scroll 0px 0px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    text-shadow: 0px 1px #FFF;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #FFF;
+    color: #666;
+    font-size: 12px;
+    padding: 4px 15px;
+    height: 38px;
+}
+
+#graph_container {
+	display: none;
+	margin-left: 4%;
+}
+
+.toltip {
+	padding-bottom: 5px;
+}
+
+.highcharts-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.highcharts-button image:hover {
+    cursor: pointer !important;
+}
+
+#print_test, #garantiaContainer {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    color: #000000 !important;
+}
+
+#print_test #encabezado_factura {
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 25px;
+}
+
+#print_test tr td, #garantiaContainer tr td {
+    background-color: #FFFFFF;
+    color: #000000 !important;
+}
+
+#print_test #cuerpo_factura {
+    margin-top: 35px;
+    height: 520px;
+}
+
+#garantiaContainer {
+    position: absolute;
+    margin-left: -200px;
+    margin-right: 50px;
+    margin-top: -110px;
+    font-family: "sans-serif";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.Garantia table tr {
+    line-height: 5px;
+}
+
+.Impresiones table tr {
+    line-height: 5px;
+}
+
+#GarantiaBody {
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#garantiaCondiciones {
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+#ImpresionesContainer {
+    position: absolute;
+    margin-left: -200px;
+    margin-right: 50px;
+    margin-top: -110px;
+    font-family: "sans-serif";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#ImpresionesBody {
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navbar-avatar {
+    border-radius: 999px;
+    float: right;
+    margin-right: 2px;
+    width:25px !important;
+    height: 25px !important;
+}
+
+.parseInt, .parseFloat {
+    text-align: right;
+}
