@@ -1,3 +1,3 @@
 # ingenieriaDelSofware
 
-*proyecto Farmacia
+*proyecto Farmacia 
