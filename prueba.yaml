@@ -2,140 +2,140 @@ databaseChangeLog:
 #Creacion de secuencias
 - changeSet:
     id: 20160412-1
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: agente_id_seq
 - changeSet:
     id: 20160412-2
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: articulo_id_seq
 - changeSet:
     id: 20160412-3
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: color_id_seq
 - changeSet:
     id: 20160412-4
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: detalle_multa_id_seq
 - changeSet:
     id: 20160412-5
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: estado_id_seq
 - changeSet:
     id: 20160412-6
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: estado_multa_id_seq
 - changeSet:
     id: 20160412-7
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: estado_solvencia_id_seq
 - changeSet:
     id: 20160412-8
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: exoneracion_id_seq
 - changeSet:
     id: 20160412-9
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: infractor_id_seq
 - changeSet:
     id: 20160412-10
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: institucion_pago_id_seq
 - changeSet:
     id: 20160412-11
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: marca_id_seq
 - changeSet:
     id: 20160412-12
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: multa_id_seq
 - changeSet:
     id: 20160412-13
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: pago_id_seq
 - changeSet:
     id: 20160412-14
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: prueba_exoneracion_id_seq
 - changeSet:
     id: 20160412-15
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: prueba_multa_id_seq
 - changeSet:
     id: 20160412-16
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: solvencia_correlatio_seq
 - changeSet:
     id: 20160412-17
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: solvencia_id_seq
 - changeSet:
     id: 20160412-18
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: tipo_identificacion_id_seq
 - changeSet:
     id: 20160412-19
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: tipo_licencia_id_seq
 - changeSet:
     id: 20160412-20
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: tipo_placa_id_seq
 - changeSet:
     id: 20160412-21
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: tipo_vehiculo_id_seq
 - changeSet:
     id: 20160412-22
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createSequence:
         sequenceName: vehiculo_id_seq
 #Definicion de Tablas
 - changeSet:
     id: 20160412-23
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -177,7 +177,7 @@ databaseChangeLog:
         tableName: agente
 - changeSet:
     id: 20160412-24
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -218,7 +218,7 @@ databaseChangeLog:
         tableName: articulo
 - changeSet:
     id: 20160412-25
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -238,7 +238,7 @@ databaseChangeLog:
         tableName: color
 - changeSet:
     id: 20160412-26
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -268,7 +268,7 @@ databaseChangeLog:
         tableName: detalle_multa
 - changeSet:
     id: 20160412-27
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -288,7 +288,7 @@ databaseChangeLog:
         tableName: estado
 - changeSet:
     id: 20160412-28
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -313,7 +313,7 @@ databaseChangeLog:
         tableName: estado_multa
 - changeSet:
     id: 20160412-29
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -334,7 +334,7 @@ databaseChangeLog:
         tableName: estado_solvencia
 - changeSet:
     id: 20160412-30
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -372,7 +372,7 @@ databaseChangeLog:
         tableName: exoneracion
 - changeSet:
     id: 20160412-31
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -420,7 +420,7 @@ databaseChangeLog:
         tableName: infractor
 - changeSet:
     id: 20160412-32
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -446,7 +446,7 @@ databaseChangeLog:
         tableName: institucion_pago
 - changeSet:
     id: 20160412-33
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -465,7 +465,7 @@ databaseChangeLog:
         tableName: marca
 - changeSet:
     id: 20160412-34
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -539,7 +539,7 @@ databaseChangeLog:
         tableName: multa
 - changeSet:
     id: 20160412-35
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -577,7 +577,7 @@ databaseChangeLog:
         tableName: pago
 - changeSet:
     id: 20160412-36
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -602,7 +602,7 @@ databaseChangeLog:
         tableName: prueba_exoneracion
 - changeSet:
     id: 20160412-37
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -627,7 +627,7 @@ databaseChangeLog:
         tableName: prueba_multa
 - changeSet:
     id: 20160412-38
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -673,7 +673,7 @@ databaseChangeLog:
         tableName: solvencia
 - changeSet:
     id: 20160412-39
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -693,7 +693,7 @@ databaseChangeLog:
         tableName: tipo_identificacion
 - changeSet:
     id: 20160412-40
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -718,7 +718,7 @@ databaseChangeLog:
         tableName: tipo_licencia
 - changeSet:
     id: 20160412-41
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -743,7 +743,7 @@ databaseChangeLog:
         tableName: tipo_placa
 - changeSet:
     id: 20160412-42
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -768,7 +768,7 @@ databaseChangeLog:
         tableName: tipo_vehiculo
 - changeSet:
     id: 20160412-43
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - createTable:
         columns:
@@ -808,7 +808,7 @@ databaseChangeLog:
 #Definicion de constraint unique
 - changeSet:
     id: 20160412-44
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: agente
@@ -816,7 +816,7 @@ databaseChangeLog:
         tableName: agente
 - changeSet:
     id: 20160412-45
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: descripcion
@@ -824,7 +824,7 @@ databaseChangeLog:
         tableName: articulo
 - changeSet:
     id: 20160412-46
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: numero
@@ -832,7 +832,7 @@ databaseChangeLog:
         tableName: articulo
 - changeSet:
     id: 20160412-47
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: articulo
@@ -840,7 +840,7 @@ databaseChangeLog:
         tableName: articulo
 - changeSet:
     id: 20160412-48
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: chasis
@@ -848,7 +848,7 @@ databaseChangeLog:
         tableName: vehiculo
 - changeSet:
     id: 20160412-49
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: color
@@ -856,7 +856,7 @@ databaseChangeLog:
         tableName: color
 - changeSet:
     id: 20160412-50
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: estado_multa
@@ -864,7 +864,7 @@ databaseChangeLog:
         tableName: estado_multa
 - changeSet:
     id: 20160412-51
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: estado_solvencia
@@ -872,7 +872,7 @@ databaseChangeLog:
         tableName: estado_solvencia
 - changeSet:
     id: 20160412-52
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: estado
@@ -880,7 +880,7 @@ databaseChangeLog:
         tableName: estado
 - changeSet:
     id: 20160412-53
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: multa, acta
@@ -888,7 +888,7 @@ databaseChangeLog:
         tableName: exoneracion
 - changeSet:
     id: 20160412-54
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: identificacion, tipo_identificacion
@@ -896,7 +896,7 @@ databaseChangeLog:
         tableName: infractor
 - changeSet:
     id: 20160412-55
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: licencia
@@ -904,7 +904,7 @@ databaseChangeLog:
         tableName: infractor
 - changeSet:
     id: 20160412-56
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: marca
@@ -912,7 +912,7 @@ databaseChangeLog:
         tableName: marca
 - changeSet:
     id: 20160412-57
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: multa, serie
@@ -920,7 +920,7 @@ databaseChangeLog:
         tableName: multa
 - changeSet:
     id: 20160412-58
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: multa, institucion, documento
@@ -928,7 +928,7 @@ databaseChangeLog:
         tableName: pago
 - changeSet:
     id: 20160412-59
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: exoneracion, recurso
@@ -936,7 +936,7 @@ databaseChangeLog:
         tableName: prueba_exoneracion
 - changeSet:
     id: 20160412-60
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: multa, recurso
@@ -944,7 +944,7 @@ databaseChangeLog:
         tableName: prueba_multa
 - changeSet:
     id: 20160412-61
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: correlatio, anio
@@ -952,7 +952,7 @@ databaseChangeLog:
         tableName: solvencia
 - changeSet:
     id: 20160412-62
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: tipo_identificacion
@@ -960,7 +960,7 @@ databaseChangeLog:
         tableName: tipo_identificacion
 - changeSet:
     id: 20160412-63
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: descripcion
@@ -968,7 +968,7 @@ databaseChangeLog:
         tableName: tipo_licencia
 - changeSet:
     id: 20160412-64
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: tipo_licencia
@@ -976,7 +976,7 @@ databaseChangeLog:
         tableName: tipo_licencia
 - changeSet:
     id: 20160412-65
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: descripcion
@@ -984,7 +984,7 @@ databaseChangeLog:
         tableName: tipo_placa
 - changeSet:
     id: 20160412-66
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: tipo_placa
@@ -992,7 +992,7 @@ databaseChangeLog:
         tableName: tipo_placa
 - changeSet:
     id: 20160412-67
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: descripcion
@@ -1000,7 +1000,7 @@ databaseChangeLog:
         tableName: tipo_vehiculo
 - changeSet:
     id: 20160412-68
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: tipo_vehiculo
@@ -1008,7 +1008,7 @@ databaseChangeLog:
         tableName: tipo_vehiculo
 - changeSet:
     id: 20160412-69
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: numero_placa, tipo_placa
@@ -1016,7 +1016,7 @@ databaseChangeLog:
         tableName: vehiculo
 - changeSet:
     id: 20160412-70
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: tarjeta_circulacion
@@ -1024,7 +1024,7 @@ databaseChangeLog:
         tableName: vehiculo
 - changeSet:
     id: 20160413-1
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addUniqueConstraint:
         columnNames: descripcion
@@ -1033,7 +1033,7 @@ databaseChangeLog:
 #Definicion de llaves foraneas
 - changeSet:
     id: 20160412-71
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: estado
@@ -1047,7 +1047,7 @@ databaseChangeLog:
         referencedTableName: estado
 - changeSet:
     id: 20160412-72
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: estado
@@ -1061,7 +1061,7 @@ databaseChangeLog:
         referencedTableName: estado
 - changeSet:
     id: 20160412-73
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: articulo
@@ -1075,7 +1075,7 @@ databaseChangeLog:
         referencedTableName: articulo
 - changeSet:
     id: 20160412-74
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: multa
@@ -1089,7 +1089,7 @@ databaseChangeLog:
         referencedTableName: multa
 - changeSet:
     id: 20160412-75
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: multa
@@ -1103,7 +1103,7 @@ databaseChangeLog:
         referencedTableName: multa
 - changeSet:
     id: 20160412-76
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: tipo_identificacion
@@ -1117,7 +1117,7 @@ databaseChangeLog:
         referencedTableName: tipo_identificacion
 - changeSet:
     id: 20160412-77
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: tipo_licencia
@@ -1131,7 +1131,7 @@ databaseChangeLog:
         referencedTableName: tipo_licencia
 - changeSet:
     id: 20160412-78
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: estado
@@ -1145,7 +1145,7 @@ databaseChangeLog:
         referencedTableName: estado
 - changeSet:
     id: 20160412-79
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: agente
@@ -1159,7 +1159,7 @@ databaseChangeLog:
         referencedTableName: agente
 - changeSet:
     id: 20160412-80
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: estado_multa
@@ -1173,7 +1173,7 @@ databaseChangeLog:
         referencedTableName: estado_multa
 - changeSet:
     id: 20160412-81
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: infractor
@@ -1187,7 +1187,7 @@ databaseChangeLog:
         referencedTableName: infractor
 - changeSet:
     id: 20160412-82
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: vehiculo
@@ -1201,7 +1201,7 @@ databaseChangeLog:
         referencedTableName: vehiculo
 - changeSet:
     id: 20160412-83
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: institucion
@@ -1215,7 +1215,7 @@ databaseChangeLog:
         referencedTableName: institucion_pago
 - changeSet:
     id: 20160412-84
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: multa
@@ -1229,7 +1229,7 @@ databaseChangeLog:
         referencedTableName: multa
 - changeSet:
     id: 20160412-85
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: exoneracion
@@ -1243,7 +1243,7 @@ databaseChangeLog:
         referencedTableName: exoneracion
 - changeSet:
     id: 20160412-86
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: multa
@@ -1257,7 +1257,7 @@ databaseChangeLog:
         referencedTableName: multa
 - changeSet:
     id: 20160412-87
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: estado_solvencia
@@ -1271,7 +1271,7 @@ databaseChangeLog:
         referencedTableName: estado_solvencia
 - changeSet:
     id: 20160412-88
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: vehiculo
@@ -1285,7 +1285,7 @@ databaseChangeLog:
         referencedTableName: vehiculo
 - changeSet:
     id: 20160412-89
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: color
@@ -1299,7 +1299,7 @@ databaseChangeLog:
         referencedTableName: color
 - changeSet:
     id: 20160412-90
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: marca
@@ -1313,7 +1313,7 @@ databaseChangeLog:
         referencedTableName: marca
 - changeSet:
     id: 20160412-91
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: tipo_placa
@@ -1327,7 +1327,7 @@ databaseChangeLog:
         referencedTableName: tipo_placa
 - changeSet:
     id: 20160412-92
-    author: pmt / esquema inicial
+    author: nelug / esquema inicial
     changes:
     - addForeignKeyConstraint:
         baseColumnNames: tipo_vehiculo
