@@ -1042,7 +1042,7 @@ databaseChangeLog:
         deferrable: false
         initiallyDeferred: false
         onDelete: NO ACTION
-        onUpdate: NO ACTION
+        onLeonel: NO ACTION
         referencedColumnNames: id
         referencedTableName: estado
 - changeSet:
@@ -1294,7 +1294,7 @@ databaseChangeLog:
         deferrable: false
         initiallyDeferred: false
         onDelete: NO ACTION
-        onUpdate: NO ACTION
+        onLeonel: NO ACTION
         referencedColumnNames: id
         referencedTableName: color
 - changeSet:
@@ -1308,7 +1308,7 @@ databaseChangeLog:
         deferrable: false
         initiallyDeferred: false
         onDelete: NO ACTION
-        onUpdate: NO ACTION
+        onLeonel: NO ACTION
         referencedColumnNames: id
         referencedTableName: marca
 - changeSet:
@@ -1322,7 +1322,7 @@ databaseChangeLog:
         deferrable: false
         initiallyDeferred: false
         onDelete: RESTRICT
-        onUpdate: RESTRICT
+        onLeonel: RESTRICT
         referencedColumnNames: id
         referencedTableName: tipo_placa
 - changeSet:
@@ -1336,6 +1336,6 @@ databaseChangeLog:
         deferrable: false
         initiallyDeferred: false
         onDelete: RESTRICT
-        onUpdate: RESTRICT
+        onLeonel: RESTRICT
         referencedColumnNames: id
         referencedTableName: tipo_vehiculo
